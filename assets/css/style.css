@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+body {
+    font-family:  'poppins', 'Open Sans';
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 15px;
+    /* font-weight: 600; */
+    line-height: 1.4;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 80px 0 30px;
+    align-items: center;
+    color: #000;
+    padding-top: 20px;
+}
+
+nav img {
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 25px;
+    font-weight: 600;
+
+}
+
+nav a:hover {
+    color: #8AC53F;
+}
+
+.intro {
+    background-image: url(../img/irrigacao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 539px;
+    /* border-radius: 15px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: calc((100% - 85%)/2);  */
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.intro h1 {
+    margin-top: -80px;
+}
+
+.intro a {
+    background-color:#395515;
+    text-decoration: none;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+
+.intro a:hover{
+    background-color: #8AC53F;
+    
+}
+
+.motivo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.motivo img {
+    border-radius: 25px;
+    margin-left: 35px;
+    height: 480px;
+    width: 70%;
+}
+
+.motivo--texto {
+    background-color: #8AC53F;
+    width: 400px;
+    height: 360px;
+    border-radius: 25px;
+    padding: 35px;
+    margin-left: -150px;
+    margin-top: 150px;
+}
+
+#sobre {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 500px;
+    width: 100%;
+}
+
+.container--sobre {
+    margin: auto;
+    background-color: #ffffff3a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto--sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto--sobre h1 {
+    color: #8AC53F;
+    margin-bottom: 50px;
+}
+
+.texto--sobre p {
+    font-weight: 600;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sobre--descricao {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    color: #8AC53F;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #8AC53F;
+    padding: 50px;
+    padding-right: 100px;
+    color: #FFF;
+    margin-top: -110px;
+}
+.contact--footer {
+    margin-top: 110px;
+}
+
+.sobre--footer {
+    margin-top: 110px;
+}
+
+.conteudo--footer {
+    flex-direction: column;
+    margin-top: -15px;
+}
+
+.contato img {
+    margin-right: 15px;
+}
+
+.contato {
+    margin-bottom: 15px;
+}
+.rede--social i {
+    justify-content: center;
+    margin-left: -40px;
+}
+
+.icone-social {
+    color: #FFF;
+}
+
+.contact {
+    background-color: #8AC53F;
+}
+.container--form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 650px;
+    background-color: #FFF;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.menu--contact a:hover{
+    color: #FFF;
+}
+
+.logo--contact {
+    border-radius: 25px;
+    width: 50%;
+    height: 75%;
+}
+
+.texto--contact {
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+
+form .input-container {
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+form .input-container  input, button[type="button"], textarea {
+    width: 90%;
+    height: 48px;
+    border-radius: 25px;
+}
+
+button[type="button"] {
+    border: 0;
+    background-color: #8AC53F;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px; 
+    cursor:pointer;
+}
+
+form .input-container  input, textarea {
+    border: 1px solid #E4E4E4;
+    color: #818181;
+    padding: 0 55px 0 25px;
+    font-size: 1rem;
+
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+    font-family: 'poppins', 'Open Sans';
+}
+
+.msgErro{
+    border: 2px dashed tomato;
+    background-color: #f2c6c6;
+    height: 39px;
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 44px;
+    display: none;
+}
+
+.container--sobreNos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%; 
+    background-color: #8AC53F;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;    
+    padding: 50px;
+}
+
+.container--sobreNos h3 {
+    color: #FFF;
+}
+
+.ajuste--sobreNos {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.subtitulo--sobreNos h1 {
+    font-size: 54px;
+}
+
+.subtitulo--sobreNos h3 {
+    margin-top: 50px;
+    text-align: start;
+    margin-right: 50px;
+ }  
+
+ span{
+    color: #000;
+ }
+
+.img--sobreNos img{
+    width: 500px;
+    border-radius: 25px;
+    margin-top: 95px;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.resultados h1 {
+    color: #FFF;
+}
+
+.box-metrica {
+    width: 20%;
+    margin-right: 30px;
+}
+
+.projeto {
+    margin-top: 80px;
+}
+
+.projeto h5 {
+    margin-top: 30px;
+}
+
+ul {
+    margin-top: 30px;
+    list-style-type: disc;
+}
+li {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.lista--sensores {
+    display: flex;
+    flex-direction: row;
+}
+
+.ajuste--cores {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto--cores{
+    margin-top: 30px;
+}
+
+.texto--cores li {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.escala-tipografica {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: calc(-90% / 2);
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.esquerda {
+    margin-right: 150px;
+}
+
+.persona {
+    margin-left: calc(-60% / 2);
+    margin-top: 50px;
+}
+
+.persona img{
+    width: 142%;
+    margin-top: 30px;
+}

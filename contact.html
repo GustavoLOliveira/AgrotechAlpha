@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Fale conosco - Agrotech Alpha</title>
+</head>
+<body class="contact">
+    <nav class="menu--contact">
+        <a href="index.html"><img src="assets/img/logoVerde.png" alt="Logo Agrotech Alpha"></a>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre nós</a>
+            <a href="#">Documentação</a>
+            
+        </div>
+    </nav>
+    <div class="container--form">
+        <img src="assets/img/frutas.jpg" alt="" class="logo--contact">
+
+        <form class="texto--contact" name="contato">
+            <h3>Fale conosco</h3>
+
+            <div class="input-container">
+                <input type="text" placeholder="Nome" name="nome" id="nome">
+            </div>
+            <div class="input-container">
+                <input type="email" placeholder="Endereço de e-mail" name="email" id="email">
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="CPF" name="cpf" id="cpf">
+            </div>
+            <div class="input-container">
+                <input type="tel" placeholder="Telefone" name="telefone" id="telefone">
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Cidade" name="cidade" id="cidade">
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Estado"name="estado" id="estado">
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Assunto" name="assunto" id="assunto">
+            </div>
+            <div class="input-container">
+                <textarea name="mensagem" placeholder="Mensagem" id="mensagem"></textarea>
+            </div>
+
+            <button type="button" onclick="validar3()">Enviar!</button>
+
+            <div class="msgErro" id="mensagemErro"></div>
+        </form>
+        
+    </div>
+
+    <footer class="contact--footer">
+        <div class="logo"><a href="index.html"><img src="assets/img/logoVerde.png" alt="Logo"></a></div>
+            <div class="conteudo--footer">
+                <div class="contato"> 
+                  <p><img src="assets/img/icon-phone.svg" alt="Telefone">(11) 12345-1234</p>
+                  <p><img src="assets/img/icon-email.svg" alt="email">contato@agrotechalpha.com</p>
+                </div>
+          
+                <div class="rede--social">
+                  <a href="#" class="icone-social"><i data-feather="facebook"></i></a>
+                  <a href="#" class="icone-social"><i data-feather="twitter"></i></a>
+                  <a href="#" class="icone-social"><i data-feather="instagram"></i></a>   
+                </div>
+              </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
